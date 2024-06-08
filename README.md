@@ -1,4 +1,4 @@
-# Intrusion Detection System (IDS)
+# Intrusion Detection System (IDS) with Docker function
 
 This project is an Intrusion Detection System (IDS) that captures and analyzes network packets to detect suspicious activities. It uses various techniques to identify anomalies, log them, and report them to a remote server.
 ## Technological Stack
@@ -97,7 +97,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 | Feature/Task                             | Status       | Description                                                                 |
 |------------------------------------------|--------------|-----------------------------------------------------------------------------|
 | CSV import for suspicious IPs and ports  | 🛠️           | Allow importing suspicious IPs and ports from a CSV file.                   |
-| Scaling the Project using docker and     | 🚧           | Implement unit tests for core functionalities.                              |
+| Scaling the Project using docker and     | 🛠️           | Testing, currently unstable.                              |
 | Real-time dashboard                      | 🚀           | Develop a real-time dashboard for monitoring detected activities.           |
 
 ### Legend
