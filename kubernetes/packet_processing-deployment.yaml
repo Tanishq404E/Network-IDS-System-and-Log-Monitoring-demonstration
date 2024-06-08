@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: packet-processing
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: packet-processing
+  template:
+    metadata:
+      labels:
+        app: packet-processing
+    spec:
+      containers:
+        - name: packet-processing
+          image: packet-processing:latest
+          ports:
+            - containerPort: 80

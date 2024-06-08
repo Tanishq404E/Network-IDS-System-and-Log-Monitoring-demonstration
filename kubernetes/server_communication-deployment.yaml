@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: server-communication
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: server-communication
+  template:
+    metadata:
+      labels:
+        app: server-communication
+    spec:
+      containers:
+        - name: server-communication
+          image: server-communication:latest
+          ports:
+            - containerPort: 80
