@@ -28,8 +28,8 @@ For testing purposes, I have used the canary token to generate a test URL genera
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Akito7011/IDS.git
-   cd IDS
+   git clone https://github.com/Akito7011/IDS-with-docker.git
+   cd IDS-with-docker
    ```
 
 2. **Install the required dependencies:**
@@ -124,3 +124,5 @@ If you have any questions, or suggestions, or just want to connect, feel free to
 ---
 
 I appreciate your interest, and I look forward to connecting with you!
+
+
